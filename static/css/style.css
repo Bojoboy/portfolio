@@ -1,0 +1,167 @@
+header {
+    background: url("../img/header.png") repeat;
+}
+.name {
+    margin: 0;
+    padding: 0;
+}
+header h2 {
+    font-family: "PT Serif", Arial, SansSerif;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    color: #cdcbb2;
+    text-shadow: 2px 1px 2px rgba(0,0,0,.8);
+}
+header .name p {
+    font-family: Lora, Arial, SansSerif;
+    font-size: 1.2em;
+    color: #a28b68;
+    text-shadow: 2px 1px 2px rgba(0,0,0,.8);
+}
+.nav {
+    margin: 0;
+    padding: 20px 0;
+}
+.nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.nav ul li {
+    display: inline;
+    margin-right: 36px;
+}
+.nav a {
+    color: #af9671;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-shadow: 2px 1px 2px rgba(0,0,0,.8);
+}
+.nav a:hover {
+    color: #e5d5bd;
+    text-decoration: none;
+    text-shadow: 4px 2px 3px rgba(0,0,0,.9);
+}
+.about {
+    padding: 0 15px 0 0;
+    margin: 0;
+
+}
+.about:first-child {
+    padding-left: 0;
+}
+.about h2 {
+    font-family: "PT Serif", Arial, SansSerif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ea9f3e;
+    text-shadow: 2px 1px 2px rgba(0,0,0,.8);
+}
+.about p {
+    font-family: Lora, Arial, SansSerif;
+    color: #cfcdb4;
+    tab-size: 14px;
+}
+.about a {
+    text-decoration: none;
+    color: #ea9f3e;
+}
+.about a:hover {
+    text-decoration: none;
+    color: #af9671;
+}
+.hireme {
+    float: left;
+}
+/*-------main-------*/
+main {
+    background: url("../img/main.png") repeat;
+    box-shadow: 0 -4px 8px rgba(0,0,0,.4);
+}
+main .screenshots {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+main .screenshots .mainimg {
+    width: 360px;
+    height: 174px;
+}
+main .screenshots .example {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+main .screenshots .example figcaption h3 {
+    text-align: center;
+}
+main .screenshots .example figcaption a {
+    font-family: "PT Serif", Arial, SansSerif;
+    color: #ea9f3e;
+    text-decoration: none;
+}
+main .screenshots .example figcaption p {
+    font-family: Lora, Arial, SansSerif;
+    color: #cdcbb2;
+    text-align: center;
+}
+main .screenshots .example figcaption {
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-in;
+    -moz-transition: opacity .5s ease-in;
+    -o-transition: opacity .5s ease-in;
+    transition: opacity .5s ease-in;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 360px;
+    background-color: rgba(0,0,0,.8);
+}
+main .screenshots .example:hover figcaption {
+    opacity: 1;
+}
+
+/*--------second about---------*/
+.secondabout {
+    background: url("../img/content-area-bg.png") repeat;
+}
+.about p strong {
+    color: #af9671;
+}
+.secondabout .about .top {
+    color: #ea9f3e;
+
+}
+.secondabout .about a .top {
+    padding-top: 50px;
+}
+.secondabout .return {
+    padding-top: 40px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.secondabout .return a {
+    text-decoration: none;
+    color: #ea9f3e;
+}
+.secondabout .iconimg {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+.secondabout .about h2 {
+    padding-left: 46px;
+}
+/*---------footer----------*/
+footer {
+    background: url("../img/footer.png") repeat;
+}
+footer .container {
+    padding: 55px 0;
+}
+footer .container p {
+    font-family: Lora, Arial, SansSerif;
+    color: #cfcdb4;
+    font-size: 14px;
+}
